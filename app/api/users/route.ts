@@ -43,7 +43,7 @@ export async function GET(request : NextRequest){
 
 export async function POST(request : NextRequest){
 
-    //email , firstName, lastName, password, phone(optional)
+    //email , firstName, lastName, password, phone(optional) new user creation
 
     const body = await request.json()
 
